@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV - DAIFI MERIEM</title>
+<style>
+body {
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+.cv-container {
+    width: 85%;
+    max-width: 950px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 3px solid #0078d7;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+.profile-pic {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #0078d7;
+    margin-right: 25px;
+}
+.info h1 {
+    font-size: 30px;
+    color: #0078d7;
+    margin: 0;
+}
+.info h2 {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #555;
+}
+.contact { font-size: 15px; }
+.contact a { color: #0078d7; text-decoration: none; }
+
+.download-btn {
+    display: block;
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    font-size: 16px;
+    border-radius: 8px;
+    margin: 10px 0 25px 0;
+    cursor: pointer;
+}
+.download-btn:hover { background-color: #005ea6; }
+
+.section h3 {
+    color: #0078d7;
+    border-left: 4px solid #0078d7;
+    padding-left: 10px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+ul { list-style-type: none; padding-left: 15px; margin: 10px 0; }
+ul li { margin-bottom: 6px; line-height: 1.6; }
+p { line-height: 1.6; }
+
+.intro {
+    background: #e6f0fa;
+    padding: 15px;
+    border-radius: 8px;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+    .cv-container { width: 95%; padding: 20px; }
+    header { flex-direction: column; align-items: center; text-align: center; }
+    .profile-pic { margin: 0 0 15px 0; }
+}
+@media print {
+    body { background: white; }
+    .cv-container { box-shadow: none; border: none; width: 100%; margin: 0; padding: 0; }
+    .download-btn { display: none; }
+    h1, h2, h3 { color: #000; }
+}
+</style>
+</head>
+<body>
+<div class="cv-container">
+    <header>
+        
+        <img src="cv.png" alt="Photo de profil" class="profile-pic">
+        <div class="info">
+            <h1>DAIFI MERIEM</h1>
+            <h2>Élève Ingénieure en Génie Mécatronique</h2>
+            <p class="contact">
+                📞 +212 601-735906 <br>
+                ✉️ <a href="mailto:daifimereyem@gmail.com">daifimereyem@gmail.com</a> <br>
+                📍 Merjan 2, Meknès
+            </p>
+        </div>
+    </header>
+
+    <button class="download-btn" onclick="window.print()">📄 Télécharger en PDF</button>
+
+    <section class="intro">
+        <p>Passionnée par l'innovation industrielle, je suis à la recherche d’un stage PFE afin d’acquérir une
+        expérience pratique et appliquer mes connaissances théoriques pour explorer de nouvelles
+        perspectives dans mon domaine d'étude.</p>
+    </section>
+
+    <section class="section">
+        <h3>🎯 Compétences Techniques</h3>
+        <ul>
+            <li><strong>Logiciels d’électronique :</strong> ISIS (Proteus)</li>
+            <li><strong>Conception mécanique :</strong> SolidWorks, Catia V5, AutoCAD</li>
+            <li><strong>Analyse structurelle :</strong> Abaqus</li>
+            <li><strong>Modélisation et simulation :</strong> Matlab / Simulink</li>
+            <li><strong>Pack Office :</strong> Word, Excel, PowerPoint</li>
+            <li><strong>Langages de programmation :</strong> C++, MySQL, Java, Python</li>
+            <li><strong>Cartes électroniques :</strong> Arduino, Raspberry Pi, Capteurs</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h3>💼 Expériences Professionnelles</h3>
+        <p><strong>Stage – Projet de fin d’année (Juillet - Août 2025)</strong><br>
+        Étude descriptive et technico-économique d’une installation solaire photovoltaïque dans l’administration.</p>
+
+        <p><strong>Projet d’efficacité énergétique – AIC Métallurgie</strong><br>
+        Analyse énergétique, élaboration du cahier des charges et dimensionnement d’un système solaire autonome.
+        <em>Résultat :</em> Solution photovoltaïque optimisée et rentable.</p>
+    </section>
+
+    <section class="section">
+        <h3>📘 Projets Académiques et Personnels</h3>
+        <ul>
+            <li>Système intelligent de gestion de circulation (capteurs, Raspberry Pi, Arduino)</li>
+            <li>Robot autonome avec système ADAS</li>
+            <li>Simulation d’un bras robotique à deux articulations</li>
+            <li>Simulation Matlab/Simulink de forces aérodynamiques</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h3>🎓 Formations Académiques</h3>
+        <ul>
+            <li><strong>2020 - Présent :</strong> Cycle d’ingénieur – ENSA Tétouan</li>
+            <li><strong>2019 - 2020 :</strong> MIP – FST Fès (Mention Bien)</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h3>📜 Certificats de Participation</h3>
+        <ul>
+            <li>“CATIA”, “ARDUINO”, “PCB” – ENSA Tétouan</li>
+            <li>“Fabrication des circuits imprimés” – ENSA Tétouan & Research Laboratory</li>
+            <li>“Matlab”, “Simulink” – ENSA Tétouan & Academy Sprint</li>
+            <li>“Arduino UNO Bootcamp”, “SolidWorks” – Udemy</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h3>🌍 Langues</h3>
+        <ul>
+            <li>Arabe : Langue maternelle</li>
+            <li>Français : Courant</li>
+            <li>Anglais : Courant</li>
+            <li>Espagnol : Notions de base</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h3>🤝 Compétences Personnelles</h3>
+        <p>Communication, Enthousiasme, Autonomie, Adaptabilité, Fiabilité</p>
+    </section>
+
+    <section class="section">
+        <h3>🏫 Activités Parascolaires</h3>
+        <ul>
+            <li>Membre active du club mécatronique – ENSA Tétouan</li>
+            <li>Ancienne secrétaire générale du club mécatronique – ENSA Tétouan</li>
+            <li>Membre de l’association des futurs ingénieurs – ENSA Tétouan</li>
+        </ul>
+    </section>
+</div>
+</body>
+</html>
